@@ -1,4 +1,4 @@
-# tei-publisher-data-template
+# application data package built from the tei-publisher-data-template
 
 Use this template to set up your own data app to be used with TEI Publisher, Publisher-generated application or any custom app.
 

@@ -40,7 +40,7 @@
       </encodingDesc>
       <profileDesc>
          <particDesc>
-            <listPerson xml:id="pb-persons">
+            <listPerson xml:id="roman-persons">
                <person xml:id="Pelyarmenus">
                   <persName>Pelyarmenus</persName>
                   <note type="relationships">Fils de <persName ref="#Cassidorus">Cassidorus</persName> 
@@ -803,7 +803,7 @@
             </person>
          </particDesc>
          <settingDesc>
-            <listPlace xml:id="pb-places">
+            <listPlace xml:id="roman-places">
                <place xml:id="Rome">
                   <placeName>Rome</placeName>
                </place>

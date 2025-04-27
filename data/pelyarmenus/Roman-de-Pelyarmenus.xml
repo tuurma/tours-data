@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="out/Pelyarmenus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="out/Pelyarmenus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="roman-de-pelyarmenus">
    <teiHeader>
       <fileDesc>
@@ -336,24 +337,31 @@
    <text>
       <body>
          <div>
+            <pb/>
             <head>Tours workshop</head>
-            <p>This is a sample, originating from the C7S project, chosen to illustrate how TEI and parallel segmentation method can be applied to record textual variants across manuscript sources.
+            <p>This is a sample, originating from the C7S project, chosen to illustrate how TEI 
+               and parallel segmentation method can be applied to record textual variants across manuscript sources.
             </p>
             <p>HTML output can be produced and controlled via TEI Processing Model with TEI Publisher and Jinks.</p>
          </div>
          <div>
             <pb n="130v"/>
-            <head type="rubrique" n="R1">Ci <app>
+            <head type="rubrique" n="R1">
+               Ci 
+               <app>
                   <lem wit="#V2 #G #X2">fine li livres de <persName key="Cassidorus"
                         >Cassydorus</persName>, si parlerons aprés de <persName key="Pelyarmenus"
                         >Pelyarmenus</persName> de <placeName key="Rome">Romme</placeName> comment
                      il avoit pourchacié vers</lem>
                   <rdg wit="#B">vient li contes a</rdg>
                </app>
-               <persName key="Dyalogus">Dyalogus</persName>, <app>
+               <persName key="Dyalogus">Dyalogus</persName>, 
+               <app>
                   <lem wit="#V2 #G #X2">son frere</lem>
                   <rdg wit="#B"/>
-               </app> le bastart, <app>
+               </app> 
+               le bastart, 
+               <app>
                   <lem wit="#V2 #G #X2">de</lem>
                   <rdg wit="#B">si com il cuida</rdg>
                </app>
